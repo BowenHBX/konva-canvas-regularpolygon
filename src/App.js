@@ -10,10 +10,13 @@ class App extends Component {
       data: {
         "label": "Your score:",
         "score": 92,
-        "scores": [{ "type": "health", "score": "98" }, { "type": "wealth", "score": "93" }, {
-          "type": "career",
-          "score": "90"
-        }, { "type": "love", "score": "83" }, { "type": "happiness", "score": "87" }]
+        "scores": [
+          { "type": "health", "score": "98" },
+          { "type": "wealth", "score": "93" },
+          { "type": "career", "score": "90" },
+          { "type": "love", "score": "83" },
+          { "type": "happiness", "score": "87" }
+        ]
       }
     }
   }
