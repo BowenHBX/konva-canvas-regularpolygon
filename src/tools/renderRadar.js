@@ -160,11 +160,11 @@ function getValues(init, stage) {
  * @param offsetHeight canvas画布高度
  * @returns {Konva.Stage}
  */
-function initScene(init, offsetWidth, offsetHeight) {
+function initScene(canvasContainer, init, offsetWidth, offsetHeight) {
   canvasHeight = offsetHeight;
   canvasWidth = offsetWidth;
   const stage = new Konva.Stage({
-    container: 'radar-canvas',
+    container: canvasContainer,
     width: canvasWidth,
     height: canvasHeight,
   });

@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import { initScene } from './tools/renderRadar.js';
+// 使用konva绘制的canvas
+// import { initScene } from './tools/renderRadar.js';
+// 使用原生canvas脚本绘制
+import { initScene } from './tools/renderPureRadar.js';
 
 class App extends Component {
   constructor(props) {
@@ -26,7 +29,7 @@ class App extends Component {
     // 获取canvas画布的宽度
     const offsetWidth = document.getElementById('radar-canvas').offsetWidth;
     // 绘制canvas
-    initScene(data, offsetWidth, offsetWidth);
+    initScene('radar-canvas', data, offsetWidth, offsetWidth);
   }
 
   render() {
