@@ -1,22 +1,16 @@
 .App {
   text-align: center;
+  background-color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
+.demo {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.demo .radar-canvas {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #c6c6c6;
+  border-radius: 8px;
+  border: 1px solid #bbbbbb;
 }
