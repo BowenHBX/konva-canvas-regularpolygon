@@ -1,5 +1,7 @@
 这是一个 [Konva canvas雷达图示例](https://gitlab.com/BowenHBX/konva-canvas-regularpolygon).
 
+![radar 图标](https://github.com/BowenHBX/konva-canvas-regularpolygon/blob/master/public/screenshot/20191030115337.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
